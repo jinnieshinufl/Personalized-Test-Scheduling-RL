@@ -51,5 +51,15 @@ def test_recommendation(questions_test):
     
     return results
 
-def to_tensor(lst):
-    return torch.LongTensor(lst)
+def get_reward(rewards):
+    R=0
+    rewards_total = []
+    for r in reversed(rewards):
+        R = r + 0.99 * R
+    rewards_total.insert(0, R)
+    rewards_total = torch.cat(rewards_total, dim=1)
+    return rewards_total
+
+def test_score(batch, test):
+    return batch[[i for i in range(len(test))], test], test
+
