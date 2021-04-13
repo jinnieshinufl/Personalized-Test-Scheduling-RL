@@ -12,11 +12,11 @@ pandas == 1.2.2
 ```
 ### Components 
 You can find the two main folders ```main``` and ```data```
-```Data```
-This includes *data.xlsx* which provides the example data structure in order to run the model.  
-The original data was not shared due to proprietary issues. 
-```Main``` - ```Utils.py```: Includes a several utility function to import and load data etc. 
-           - ```Policy+train.py```: Includes the main model for training. 
+
+``Data``: This includes *data.xlsx* which provides the example data structure in order to run the model.  
+```Main```: The original data was not shared due to proprietary issues. 
+- ```Utils.py```: Includes a several utility function to import and load data etc.           
+- ```Policy+train.py```: Includes the main model for training. 
 
 ## Acknowledgement 
 We would like to thank Dr. Nurakhmetov for his original source code.  
