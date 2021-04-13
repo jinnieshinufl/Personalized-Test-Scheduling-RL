@@ -13,3 +13,6 @@ This code is prepared in python 3. A few python packages are required in order t
 You can find the two main folders 'main' and 'data'
 ### Data
 This includes *data.xlsx* which provides the example data structure in order to run the model 
+### Main 
+- Utils.py: Includes a several utility function to import and load data etc. 
+- Policy+train.py: Includes the main model for training 
