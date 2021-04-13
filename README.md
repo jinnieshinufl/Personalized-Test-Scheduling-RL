@@ -3,3 +3,6 @@ Code for Building An Intelligent Recommendation System for Personalized Test Sch
 
 ## Get Started
 ### Prerequisites
+This code is prepared in python 3. A few python packages are required in order to run the code.
+- numpy
+- 
