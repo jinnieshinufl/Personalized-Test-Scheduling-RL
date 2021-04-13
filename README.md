@@ -10,9 +10,12 @@ This code is prepared in python 3. A few python packages are required in order t
 - pandas == 1.2.2
 
 ### Components 
-You can find the two main folders 'main' and 'data'
+You can find the two main folders **main** and **data**
 ### Data
-This includes *data.xlsx* which provides the example data structure in order to run the model 
+This includes *data.xlsx* which provides the example data structure in order to run the model.  
+The original data was not shared due to proprietary issues. 
 ### Main 
 - Utils.py: Includes a several utility function to import and load data etc. 
-- Policy+train.py: Includes the main model for training 
+- Policy+train.py: Includes the main model for training. 
+
+### Acknowledgement 
