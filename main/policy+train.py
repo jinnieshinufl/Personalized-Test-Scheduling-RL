@@ -48,7 +48,7 @@ class Policy(nn.Module):
         
         self.t_emb  = nn.Embedding(n_tests, hidden_size // 2)
         self.s_emb  = nn.Embedding(n_scores, hidden_size // 2)
-        self.gru    = nn.GRUCell(hidden_size, hidden_size)
+        self.lstm = nn.LSTMCell(hidden_size, hidden_Size)
         self.actor  = nn.Linear(hidden_size, n_tests)
         self.critic = nn.Linear(hidden_size, 1)
         self.clf    = nn.Linear(hidden_size, 10) 
